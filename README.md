@@ -1,2 +1,3 @@
-# Twilas_Tale
-Working repository for a Godot passion project in the style of PS1/PSX 3D platformers like Spyro, Crash Bandicoot, and Ape Escape.
+🦄 Twila’s Tale is a retro-inspired 3D platformer in the spirit of classic PS1 games like Spyro the Dragon. You play as Twila, a young alicorn exploring a dreamy, high-fantasy world filled with floating islands, magical creatures, and ancient secrets. With mechanics like gliding, charging, and platforming challenges, the game blends nostalgic aesthetics — low poly models, jittery textures/models, and dithered lighting — with smooth modern gameplay. Think: PS1 vibes with today’s polish.
+
+We’re building it in Godot 4, modeling in Blender, and using custom shaders to authentically capture the look and feel of the PlayStation era. It's all about exploration, charm, and that feeling of wonder you got picking up a controller in 1998.
