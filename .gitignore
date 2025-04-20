@@ -1,3 +1,21 @@
-# Godot 4+ specific ignores
+## Godot-specific
+.import/
+.export/
+.export_presets.cfg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Godot-generated build files
+*.godot
+*.mono/
+
+Godot 4+ specific ignores
 .godot/
 /android/
+
+# Blender
+*.blend1
+*.blend2
+
