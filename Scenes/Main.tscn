@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://b08bgoile1ful"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_c1w88"]
+
+[sub_resource type="Environment" id="Environment_c1w88"]
+background_mode = 2
+fog_enabled = true
+fog_mode = 1
+fog_density = 1.0
+fog_depth_end = 50.0
+
+[node name="World" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("PlaneMesh_c1w88")
+
+[node name="Node3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.714375, 0.699763, 0, -0.699763, 0.714375, 0, 8.0398, 10.7224)
+light_color = Color(1, 0.94902, 0.921569, 1)
+light_energy = 1.5
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_c1w88")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -3)
